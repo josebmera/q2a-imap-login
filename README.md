@@ -1,10 +1,10 @@
-# Question2Answer IMAP Login #
+# IMAP Login for Question2Answer #
 
-## DESCRIPTION ##
+## Description ##
 
-imap-login is an IMAP authentication mechanism for Question2Answer. In it's current form, it is intended to replace the existing Q2A login form. The script will first check user credentials through an IMAP request and fall back to the login form again if that fails. When the user exists in the email server, the script will create a new user account for the individual in the Q2A database.
+Imap-login is an IMAP authentication mechanism for Question2Answer. In it's current form, it is intended to replace the existing Q2A login form. The script will first check user credentials through an IMAP request and fall back to the login form again if that fails. When the user exists in the email server, the script will create a new user account for the individual in the Q2A database.
 
-## INSTALLATION ##
+## Installation ##
 
 To install the plugin:
 
@@ -38,13 +38,13 @@ To install the plugin:
 
 	qa_redirect('login');
 
-## CHANGE LOG ##
+## Change log ##
 
 **v0.0.0**
 
 * Initial release which supports logging in through an IMAP request to an email server.
 
-## LICENSE ##
+## License ##
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
 ## About Q2A ##
